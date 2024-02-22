@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from html_chatbot_template import css, bot_template, user_template
 
 
-# Load the environment variables and 
+# Load the environment variables and the OpenAI API key
 load_dotenv()
 DB_string = os.getenv("DB_STRING")
 openai.api_key = os.getenv("OPENAI_API_KEY")
