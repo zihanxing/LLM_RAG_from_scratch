@@ -36,3 +36,12 @@ RAG's integration with GPT-3.5 offers significant benefits for generating detail
 Inspiration, code snippets, etc.
 
 https://github.com/architkaila/Chat-With-Documents
+
+## How to use
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Note: Please ensure that you have the required API keys and access to the CrateDB instance for the complete functionality of the application, and update the environment variables accordingly.
