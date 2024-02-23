@@ -4,5 +4,5 @@ pdfplumber
 sqlalchemy
 streamlit
 openai
-dotenv
+python-dotenv
 sklearn
